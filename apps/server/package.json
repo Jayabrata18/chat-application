@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node dist/app",
+    "build": "tsc -p .",
+    "dev": "tsc-watch --onSuccess \"node dist/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JOY",
+  "license": "MIT",
+  "devDependencies": {
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  }
+}
